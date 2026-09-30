@@ -24,13 +24,12 @@ export function HeroSection() {
       />
       <Navbar overlay />
       <div className="relative z-3 text-center max-w-6xl mx-auto">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[72px] font-semibold leading-tight tracking-tight">
+        <h1 className="text-2xl md:text-5xl lg:text-7xl xl:text-[4.5rem] font-semibold leading-tight tracking-tight">
           Get Access to Hundreds
           <br /> Courses Available
         </h1>
-        <p className="mt-4 mx-auto text-base sm:text-lg md:text-xl lg:text-[18px] text=[#E5E6E8] max-w-2xl leading-relaxed">
-          Unlock your creativity, gain valuable knowledge, and grow your
-          business with our wide range of courses.
+        <p className="mt-4 mx-auto text-xs md:text-sm text-[#E5E6E8] w-full  leading-relaxed">
+          Unlock your creativity, gain valuable knowledge, and grow your business with our wide range of courses.
         </p>
         <div className="mt-8 sm:mt-10 max-w-md mx-auto">
           <SearchBar />
