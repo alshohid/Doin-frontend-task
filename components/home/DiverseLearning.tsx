@@ -19,9 +19,9 @@ const paths = [
 
 export function DiverseLearning() {
   return (
-    <section className="mx-auto w-[90%] max-w-[1200px] pb-[78px] pt-2 max-md:py-[52px]">
-      <div className="mx-auto mb-10 text-center max-md:mb-[26px]">
-        <h2 className="mb-[15px] text-[clamp(28px,3vw,42px)] leading-[1.15] tracking-[-.04em] max-md:text-[27px]">Explore Diverse Learning Paths at Bytespace</h2>
+    <section className="mx-auto w-[90%] max-w-300 pb-19.5 pt-2 max-md:py-13">
+      <div className="mx-auto mb-10 text-center max-md:mb-6.5">
+        <h2 className="mb-3.75 text-[clamp(28px,3vw,42px)] leading-[1.15] tracking-[-.04em] max-md:text-[27px]">Explore Diverse Learning Paths at Bytespace</h2>
         <p className="m-0 text-[15px] leading-[1.65] text-text-secondary max-md:text-xs">
           At Bytespace, we believe in empowering individuals through knowledge.
           Our diverse range of courses spans various

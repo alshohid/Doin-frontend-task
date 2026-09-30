@@ -21,7 +21,7 @@ export function ProfessionalGrowth() {
     <section className="relative isolate overflow-hidden bg-surface-soft px-5 py-14 sm:px-8 sm:py-16 lg:py-20">
       <Image
         aria-hidden="true"
-        className="pointer-events-none absolute left-0 top-0 z-0 w-[46vw] max-w-[620px]"
+        className="pointer-events-none absolute left-0 top-0 z-0 w-[46vw] max-w-155"
         src="/images/professional-growth/ellipse-one.png"
         alt=""
         width={1025}
@@ -29,7 +29,7 @@ export function ProfessionalGrowth() {
       />
       <Image
         aria-hidden="true"
-        className="pointer-events-none absolute right-0 top-0 z-0 w-[30vw] max-w-[420px]"
+        className="pointer-events-none absolute right-0 top-0 z-0 w-[30vw] max-w-105"
         src="/images/professional-growth/ellipse-two.png"
         alt=""
         width={669}
@@ -37,7 +37,7 @@ export function ProfessionalGrowth() {
       />
       <Image
         aria-hidden="true"
-        className="pointer-events-none absolute bottom-0 left-0 z-0 w-[28vw] max-w-[380px]"
+        className="pointer-events-none absolute bottom-0 left-0 z-0 w-[28vw] max-w-95"
         src="/images/professional-growth/ellipse-three.png"
         alt=""
         width={425}
@@ -45,18 +45,18 @@ export function ProfessionalGrowth() {
       />
       <Image
         aria-hidden="true"
-        className="pointer-events-none absolute bottom-0 right-0 z-0 w-[34vw] max-w-[470px]"
+        className="pointer-events-none absolute bottom-0 right-0 z-0 w-[34vw] max-w-117.5"
         src="/images/professional-growth/ellipse-four.png"
         alt=""
         width={758}
         height={712}
       />
-      <div className="relative z-10 mx-auto grid max-w-[1200px] grid-cols-1 items-center gap-x-12 gap-y-12 md:grid-cols-2 lg:gap-x-16 lg:gap-y-20">
+      <div className="relative z-10 mx-auto grid max-w-300 grid-cols-1 items-center gap-x-12 gap-y-12 md:grid-cols-2 lg:gap-x-16 lg:gap-y-20">
         <div>
           <h2 className="mb-5 text-[clamp(30px,4vw,44px)] leading-[1.13] tracking-[-.04em]">
             Your Path to Professional Growth Starts Here!
           </h2>
-          <p className="max-w-[490px] text-sm leading-[1.75] text-text-body sm:text-base">
+          <p className="max-w-122.5 text-sm leading-[1.75] text-text-body sm:text-base">
             Explore our curated selection of courses tailored to enhance your
             capabilities and accelerate your career journey. Whether you are
             looking to sharpen specific skills, gain industry expertise, or
@@ -77,7 +77,7 @@ export function ProfessionalGrowth() {
           </div>
         </div>
 
-        <div className="relative mx-auto flex min-h-[350px] w-full max-w-[560px] items-end justify-center sm:min-h-[440px]">
+        <div className="relative mx-auto flex min-h-87.5 w-full max-w-140 items-end justify-center sm:min-h-110">
           <Image
             className="absolute right-0 top-0 z-0 w-[38%] sm:w-[35%]"
             src="/images/professional-growth/frame-one.png"
@@ -107,20 +107,20 @@ export function ProfessionalGrowth() {
             </div>
           </article>
           <Image
-            className="relative z-10 ml-[23%] h-auto w-[76%] max-w-[440px] object-contain drop-shadow-[0_18px_14px_#0003] sm:ml-[25%] sm:w-[75%]"
+            className="relative z-10 ml-[23%] h-auto w-[76%] max-w-110 object-contain drop-shadow-[0_18px_14px_#0003] sm:ml-[25%] sm:w-[75%]"
             src="/images/professional-growth/person-one.png"
             alt="Student learning with a laptop and headphones"
             width={722}
             height={515}
           />
-          <div className="absolute right-0 top-[43%] z-20 grid w-[44%] gap-2 rounded-xl bg-white p-3 text-text-heading shadow-[0_12px_30px_#07123b24] sm:right-0 sm:top-[45%] sm:w-[42%] sm:p-4">
+          <div className="absolute right-0 top-[40%] z-20 grid w-[24%] gap-2 rounded-xl bg-white p-3 text-text-heading shadow-[0_12px_30px_#07123b24] sm:right-0 sm:top-[45%] sm:w-[42%] sm:p-4">
             <span className="text-[10px] sm:text-sm">Learning Progress</span>
-            <b className="text-3xl leading-none sm:text-5xl">55%</b>
+            <b className="text-2xl md:text-3xl leading-none ">55%</b>
             <i className="h-1.5 rounded-lg bg-[linear-gradient(to_right,var(--brand-lime)_55%,#eee_55%)]" />
           </div>
         </div>
 
-        <div className="relative mx-auto flex min-h-[350px] w-full max-w-[560px] items-end justify-center sm:min-h-[440px]">
+        <div className="relative mx-auto flex min-h-87.5 w-full max-w-140 items-end justify-center sm:min-h-110">
           <Image
             className="absolute bottom-[8%] left-0 z-0 w-[32%] sm:bottom-[10%] sm:left-[2%] sm:w-[36%]"
             src="/images/professional-growth/frame-two.png"
@@ -139,7 +139,7 @@ export function ProfessionalGrowth() {
             <span className="w-fit rounded-full bg-brand-lime px-2 py-1 text-[8px] text-text-dark">+12%</span>
           </div>
           <Image
-            className="relative z-10 ml-[20%] h-auto w-[76%] max-w-[400px] object-contain drop-shadow-[0_18px_14px_#0003] sm:ml-[22%] sm:w-[72%]"
+            className="relative z-10 ml-[20%] h-auto w-[76%] max-w-100 object-contain drop-shadow-[0_18px_14px_#0003] sm:ml-[22%] sm:w-[72%]"
             src="/images/professional-growth/person-two.png"
             alt="Creator managing and teaching online courses"
             width={600}
@@ -169,7 +169,7 @@ export function ProfessionalGrowth() {
           <h2 className="mb-5 text-[clamp(30px,4vw,44px)] leading-[1.13] tracking-[-.04em]">
             Create &amp; Manage Courses Easily.
           </h2>
-          <p className="mb-7 max-w-[500px] text-sm leading-[1.75] text-text-body sm:text-base">
+          <p className="mb-7 max-w-125 text-sm leading-[1.75] text-text-body sm:text-base">
             <strong className="text-text-heading">ByteSpace</strong> supports
             individuals or entities in the creation, publication, and
             administration of educational courses.
