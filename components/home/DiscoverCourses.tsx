@@ -4,8 +4,8 @@ import { CourseGrid } from "@/components/reusable/course-grid";
 export function DiscoverCourses() {
   return (
     <section className="mx-auto w-[90%] max-w-300 py-19.5 max-md:py-13">
-      <div className="mx-auto mb-[38px] text-center max-md:mb-[26px]">
-        <h2 className="mb-[15px] text-[clamp(28px,3vw,42px)] leading-[1.15] tracking-[-.04em] max-md:text-[27px]">
+      <div className="mx-auto mb-9.5 text-center max-md:mb-6.5">
+        <h2 className="mb-3.75 text-[clamp(28px,3vw,42px)] leading-[1.15] tracking-[-.04em] max-md:text-[27px]">
           Discover Your Passion,
           <br />
           Build Your Skills

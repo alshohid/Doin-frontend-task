@@ -52,7 +52,7 @@ const courses = [
 ];
 export function CourseGrid() {
   return (
-    <div className="grid grid-cols-3 gap-[22px] max-md:grid-cols-2 max-md:gap-3">
+    <div className="grid grid-cols-3 gap-5.5 max-md:grid-cols-2 max-md:gap-3">
       {courses.map((course) => (
         <CourseCard key={course.title} {...course} />
       ))}
