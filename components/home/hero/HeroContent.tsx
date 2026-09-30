@@ -7,7 +7,7 @@ export function HeroContent() {
         Get Access to Hundreds
         <br /> Courses Available
       </h1>
-      <p className="mt-4 mx-auto text-xs md:text-sm text-[#E5E6E8] w-full leading-relaxed">
+      <p className="mt-4 mx-auto text-xs md:text-sm text-text-hero-muted w-full leading-relaxed">
         Unlock your creativity, gain valuable knowledge, and grow your business with our wide range of courses.
       </p>
       <div className="mt-8 sm:mt-10 max-w-md mx-auto">

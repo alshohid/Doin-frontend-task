@@ -10,7 +10,7 @@ export function DiscoverCourses() {
           <br />
           Build Your Skills
         </h2>
-        <p className="m-0 text-[15px] leading-[1.65] text-[#858690] max-md:text-xs">
+        <p className="m-0 text-[15px] leading-[1.65] text-text-secondary max-md:text-xs">
           At Bytespace Courses, we bring you closer to life-changing
           knowledge. Explore a variety of courses across different
           <br className="max-md:hidden" /> fields, from technology to the

@@ -5,7 +5,7 @@ import { HeroStatCards } from "./hero/HeroStatCards";
 
 export function HeroSection() {
   return (
-    <section className="relative isolate min-h-[70vh] overflow-hidden bg-[#003BE2] px-4 pt-24 pb-8 text-[#FFFFFF] sm:h-[1024px] sm:px-6 sm:pt-28 sm:pb-0 lg:px-8">
+    <section className="relative isolate min-h-[70vh] overflow-hidden bg-brand-blue-hero px-4 pt-24 pb-8 text-white sm:h-[1024px] sm:px-6 sm:pt-28 sm:pb-0 lg:px-8">
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 bg-grid-pattern opacity-20"

@@ -24,7 +24,7 @@ export function Skills() {
     <div className="mx-auto mb-12 flex max-w-[1050px] flex-wrap justify-center gap-3 max-md:mb-7 max-md:gap-[7px]" aria-label="Course topics">
       {skills.map((skill, index) => (
         <button
-          className={`rounded-full border-0 px-[15px] py-[9px] text-xs whitespace-nowrap text-[#5e606a] max-md:px-[10px] max-md:py-[7px] max-md:text-[10px] ${index === 0 ? "bg-brand-lime text-[#1b1d22]" : "bg-[#f4f4f6]"}`}
+          className={`rounded-full border-0 px-[15px] py-[9px] text-xs whitespace-nowrap text-text-subtle max-md:px-[10px] max-md:py-[7px] max-md:text-[10px] ${index === 0 ? "bg-brand-lime text-text-dark" : "bg-surface-tag"}`}
           key={skill}
           type="button"
         >

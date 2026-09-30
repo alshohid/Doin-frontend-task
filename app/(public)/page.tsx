@@ -8,7 +8,7 @@ import { OurCommunity } from "@/components/home/OurCommunity";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen overflow-hidden bg-[#FFFFFF] text-[#1c1d27]">
+    <main className="min-h-screen overflow-hidden bg-white text-text-primary">
       <HeroSection />
       <TrustedBy />
       <DiscoverCourses />

@@ -26,7 +26,7 @@ const testimonials = [
 
 export function OurCommunity() {
   return (
-    <section className="relative isolate overflow-hidden bg-[#fbfcf8] px-6 py-[76px] max-md:px-5 max-md:py-[52px]">
+    <section className="relative isolate overflow-hidden bg-surface-warm px-6 py-[76px] max-md:px-5 max-md:py-[52px]">
       <Image
         aria-hidden="true"
         className="pointer-events-none absolute right-[-3%] top-[-14%] z-0 w-[52vw] max-w-[760px]"
@@ -57,7 +57,7 @@ export function OurCommunity() {
             Discover What Our
             <br /> Community Is Saying
           </h2>
-          <p className="m-0 text-sm leading-[1.65] text-[#737681] max-md:text-xs">
+          <p className="m-0 text-sm leading-[1.65] text-text-body-alt max-md:text-xs">
             At ByteSpace, our vibrant community of learners and creators is at
             the heart of what we do. Hear directly from those who have
             experienced the transformative journey of learning and creating on
@@ -71,7 +71,7 @@ export function OurCommunity() {
               <Image className="mb-3 size-[52px] rounded-full object-cover" src={person.image} alt="" width={52} height={52} />
               <b className="text-[15px]">{person.name}</b>
               <span className="mt-[3px] text-xs text-blue-700">{person.role}</span>
-              <p className="mt-[13px] mb-0 text-[13px] leading-[1.7] text-[#6f717a] max-md:text-xs">“{person.quote}”</p>
+              <p className="mt-[13px] mb-0 text-[13px] leading-[1.7] text-text-quote max-md:text-xs">“{person.quote}”</p>
             </article>
           ))}
         </div>

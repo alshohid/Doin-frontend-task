@@ -57,7 +57,7 @@ export function PotentialCreator() {
         <h2 className="mb-[18px] text-[clamp(29px,3.4vw,44px)] leading-[1.15] tracking-[-.04em] max-md:text-[30px]">
           Unlock Your Potential as a<br /> Creator with ByteSpace
         </h2>
-        <p className="mx-auto mb-[26px] text-sm leading-[1.65] text-[#d6defd] max-md:text-xs">
+        <p className="mx-auto mb-[26px] text-sm leading-[1.65] text-text-creator-muted max-md:text-xs">
           Experience the collaboration of numerous creators and an expanding
           selection of courses. Register now and become a part of a community
           comprising over 10,000 local and international creators. Utilize our
@@ -66,7 +66,7 @@ export function PotentialCreator() {
         </p>
         <Link
           href="/register"
-          className="inline-flex h-[42px] items-center justify-center rounded-full bg-brand-lime px-[27px] text-[13px] text-[#131313] transition-transform hover:-translate-y-0.5"
+          className="inline-flex h-[42px] items-center justify-center rounded-full bg-brand-lime px-[27px] text-[13px] text-text-dark transition-transform hover:-translate-y-0.5"
         >
           Join as Creator
         </Link>

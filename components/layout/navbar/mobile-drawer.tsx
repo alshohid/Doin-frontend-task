@@ -42,7 +42,7 @@ export function MobileDrawer({
         role="dialog"
         aria-modal="true"
         aria-label="Mobile navigation"
-        className={`fixed inset-y-0 right-0 flex h-dvh w-[82vw] max-w-[340px] flex-col border-l border-white/15 bg-gradient-to-b from-brand-blue to-[#0528a5] text-white shadow-[-10px_0_30px_rgba(0,0,0,0.35)] transition-transform duration-300 ease-in-out sm:w-80 ${
+        className={`fixed inset-y-0 right-0 flex h-dvh w-[82vw] max-w-[340px] flex-col border-l border-white/15 bg-gradient-to-b from-brand-blue to-brand-blue-dark text-white shadow-[-10px_0_30px_rgba(0,0,0,0.35)] transition-transform duration-300 ease-in-out sm:w-80 ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -139,7 +139,7 @@ export function MobileDrawer({
             <Link
               href="/register"
               onClick={onClose}
-              className="flex h-11 w-full items-center justify-center rounded-full bg-brand-lime text-center text-sm font-bold text-[#111] transition-transform hover:bg-brand-lime/90 active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-white"
+              className="flex h-11 w-full items-center justify-center rounded-full bg-brand-lime text-center text-sm font-bold text-text-dark transition-transform hover:bg-brand-lime/90 active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-white"
             >
               Join Us
             </Link>

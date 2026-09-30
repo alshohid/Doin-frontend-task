@@ -4,6 +4,69 @@
 
 @custom-variant dark (&:is(.dark *));
 
+:root {
+  /* Brand Core Colors */
+  --brand-blue: #0738df;
+  --brand-blue-hero: #003be2;
+  --brand-blue-dark: #0528a5;
+  --brand-lime: #d4fb20;
+  --brand-lime-hover: #bddd00;
+
+  /* Surfaces & Backgrounds */
+  --surface-gray: #f5f5f7;
+  --surface-warm: #fbfcf8;
+  --surface-soft: #f8f9f8;
+  --surface-pill: #f2f3f5;
+  --surface-tag: #f4f4f6;
+
+  /* Typography / Text */
+  --text-primary: #1c1d27;
+  --text-heading: #242528;
+  --text-body: #626571;
+  --text-body-alt: #737681;
+  --text-secondary: #858690;
+  --text-muted: #8a8b91;
+  --text-subtle: #777777;
+  --text-quote: #6f717a;
+  --text-dark: #111111;
+  --text-hero-muted: #e5e6e8;
+  --text-creator-muted: #d6defd;
+
+  /* Borders & Dividers */
+  --border-card: #e7e7eb;
+  --border-light: #eeeef0;
+  --border-divider: #d6d6d9;
+
+  /* Course Category Badges */
+  --category-mint-bg: #ddf5e9;
+  --category-mint-text: #253510;
+  --category-coral-bg: #ffd1c4;
+  --category-coral-text: #622e25;
+  --category-violet-bg: #c7c5ff;
+  --category-violet-text: #26245a;
+
+  /* Standard Base Tokens */
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: oklch(0.205 0 0);
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.97 0 0);
+  --secondary-foreground: oklch(0.205 0 0);
+  --muted: oklch(0.97 0 0);
+  --muted-foreground: oklch(0.556 0 0);
+  --accent: oklch(0.97 0 0);
+  --accent-foreground: oklch(0.205 0 0);
+  --destructive: oklch(0.577 0.245 27.325);
+  --border: oklch(0.922 0 0);
+  --input: oklch(0.922 0 0);
+  --ring: oklch(0.708 0 0);
+  --radius: 0.625rem;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -26,30 +89,46 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-geist-sans);
-  --color-brand-blue: #0738df;
-  --color-brand-lime: #d4fb20;
-}
 
-:root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --radius: 0.625rem;
+  /* Brand Utilities */
+  --color-brand-blue: var(--brand-blue);
+  --color-brand-blue-hero: var(--brand-blue-hero);
+  --color-brand-blue-dark: var(--brand-blue-dark);
+  --color-brand-lime: var(--brand-lime);
+  --color-brand-lime-hover: var(--brand-lime-hover);
+
+  /* Surface Utilities */
+  --color-surface-gray: var(--surface-gray);
+  --color-surface-warm: var(--surface-warm);
+  --color-surface-soft: var(--surface-soft);
+  --color-surface-pill: var(--surface-pill);
+  --color-surface-tag: var(--surface-tag);
+
+  /* Text Utilities */
+  --color-text-primary: var(--text-primary);
+  --color-text-heading: var(--text-heading);
+  --color-text-body: var(--text-body);
+  --color-text-body-alt: var(--text-body-alt);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-text-subtle: var(--text-subtle);
+  --color-text-quote: var(--text-quote);
+  --color-text-dark: var(--text-dark);
+  --color-text-hero-muted: var(--text-hero-muted);
+  --color-text-creator-muted: var(--text-creator-muted);
+
+  /* Border Utilities */
+  --color-border-card: var(--border-card);
+  --color-border-light: var(--border-light);
+  --color-border-divider: var(--border-divider);
+
+  /* Course Category Badge Utilities */
+  --color-category-mint-bg: var(--category-mint-bg);
+  --color-category-mint-text: var(--category-mint-text);
+  --color-category-coral-bg: var(--category-coral-bg);
+  --color-category-coral-text: var(--category-coral-text);
+  --color-category-violet-bg: var(--category-violet-bg);
+  --color-category-violet-text: var(--category-violet-text);
 }
 
 @utility bg-grid-pattern {
@@ -57,4 +136,3 @@
     linear-gradient(to bottom, rgba(255, 255, 255, 0.4) 1px, transparent 1px);
   background-size: 120px 120px;
 }
-
