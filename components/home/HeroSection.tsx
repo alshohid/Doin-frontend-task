@@ -15,12 +15,7 @@ export function HeroSection() {
     <section className="relative isolate min-h-[70vh] overflow-hidden bg-[#003BE2] px-4 pt-24 pb-8 text-[#FFFFFF] sm:h-[1024px] sm:px-6 sm:pt-28 sm:pb-0 lg:px-8">
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 opacity-20"
-        style={{
-          backgroundImage:
-            "linear-gradient(to right, rgba(255,255,255,.4) 1px, transparent 1px), linear-gradient(to bottom, rgba(255,255,255,.4) 1px, transparent 1px)",
-          backgroundSize: "120px 120px",
-        }}
+        className="pointer-events-none absolute inset-0 bg-grid-pattern opacity-20"
       />
       <Navbar overlay />
       <div className="relative z-3 text-center max-w-6xl mx-auto">
