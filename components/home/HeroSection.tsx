@@ -1,4 +1,3 @@
-import { Navbar } from "@/components/layout/Navbar";
 import { HeroContent } from "./hero/HeroContent";
 import { HeroVisuals } from "./hero/HeroVisuals";
 import { HeroStatCards } from "./hero/HeroStatCards";
@@ -10,7 +9,6 @@ export function HeroSection() {
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 bg-grid-pattern opacity-20"
       />
-      <Navbar overlay />
       <HeroContent />
       <HeroVisuals />
       <HeroStatCards />
