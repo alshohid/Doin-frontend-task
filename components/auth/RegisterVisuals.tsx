@@ -4,7 +4,15 @@ import LogoIcon from "@/components/icons/AllIcons";
 import { CourseCard } from "@/components/reusable/course-card";
 import { HERO_AVATARS } from "@/components/home/hero/constants";
 
-export function RegisterVisuals() {
+interface AuthVisualsProps {
+  title?: string;
+  description?: string;
+}
+
+export function RegisterVisuals({
+  title = "Sign up and come in",
+  description = "The registration process is straightforward, uncomplicated, and efficient, allowing users to sign up quickly, easily, and at no cost",
+}: AuthVisualsProps = {}) {
   return (
     <div className="hidden flex-1 flex-col items-start justify-center self-center lg:flex">
       {/* Top Brand Logo */}
@@ -15,11 +23,10 @@ export function RegisterVisuals() {
       {/* Text Section */}
       <div className="mt-6 max-w-lg text-white xl:mt-8">
         <h1 className="text-2xl font-bold tracking-tight text-white xl:text-3xl">
-          Sign up and come in
+          {title}
         </h1>
         <p className="mt-2.5 text-xs leading-relaxed text-white/80 xl:mt-3 xl:text-sm">
-          The registration process is straightforward, uncomplicated, and efficient,
-          allowing users to sign up quickly, easily, and at no cost
+          {description}
         </p>
       </div>
 
@@ -108,3 +115,5 @@ export function RegisterVisuals() {
     </div>
   );
 }
+
+export { RegisterVisuals as AuthVisuals };
