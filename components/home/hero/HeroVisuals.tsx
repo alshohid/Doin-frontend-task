@@ -4,7 +4,7 @@ import { HERO_DECORATIVE_SHAPES } from "./constants";
 export function HeroVisuals() {
   return (
     <>
-      {/* Central Platform Graphic */}
+
       <Image
         aria-hidden="true"
         className="pointer-events-none absolute bottom-0 left-1/2 z-0 hidden h-auto w-[min(1149px,100vw)] -translate-x-1/2 sm:block"
@@ -15,7 +15,7 @@ export function HeroVisuals() {
         priority
       />
 
-      {/* Main Student Character */}
+
       <Image
         className="absolute bottom-0 left-1/2 z-1 hidden h-auto w-[min(722px,70vw)] -translate-x-1/2 object-contain sm:block"
         src="/images/hero-images/hero-person.png"
@@ -26,7 +26,7 @@ export function HeroVisuals() {
         sizes="(max-width: 640px) 95vw, (max-width: 1024px) 85vw, (max-width: 1280px) 75vw, 680px"
       />
 
-      {/* Floating 3D Decorative Shapes */}
+
       {HERO_DECORATIVE_SHAPES.map((shape) => (
         <Image
           key={shape.src}
