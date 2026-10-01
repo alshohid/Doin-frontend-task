@@ -79,7 +79,7 @@ export function RegisterVisuals() {
           />
 
           {/* Happy Students Overlay Card - Positioned right over the bottom of the card */}
-          <div className="absolute -bottom-8 left-20 z-30 min-w-48 rounded-2xl bg-brand-lime p-3 text-neutral-900 shadow-[0_15px_35px_rgba(0,0,0,0.2)] lg:-bottom-28 lg:left-24 lg:min-w-54 xl:left-28 xl:min-w-60 xl:p-3.5">
+          <div className="absolute -bottom-8 right-0 z-30 min-w-48 rounded-2xl bg-brand-lime p-3 text-neutral-900 shadow-[0_15px_35px_rgba(0,0,0,0.2)] lg:-bottom-28 lg:right-0 lg:min-w-54 xl:left-28 xl:min-w-60 xl:p-3.5">
             <b className="block text-xs font-bold leading-tight text-neutral-900 xl:text-sm">
               Happy Students
             </b>

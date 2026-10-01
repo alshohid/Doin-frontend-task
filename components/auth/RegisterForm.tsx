@@ -50,7 +50,7 @@ export function RegisterForm() {
           <div className="flex justify-end pt-2">
             <button
               type="submit"
-              className="cursor-pointer rounded-full bg-brand-lime px-7 py-2.5 text-sm font-bold text-neutral-950 shadow-sm transition hover:brightness-95 active:scale-95 sm:px-8 sm:py-3"
+              className="cursor-pointer rounded-full bg-brand-lime px-7 py-2.5 text-sm font-medium text-neutral-950 shadow-sm transition hover:brightness-95 active:scale-95 sm:px-8 sm:py-3"
             >
               Continue
             </button>

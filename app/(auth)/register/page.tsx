@@ -9,7 +9,7 @@ export default function RegisterPage() {
         className="pointer-events-none absolute inset-0 bg-grid-pattern opacity-25"
       />
 
-      <div className="relative z-10 mx-auto flex w-full max-w-7xl items-center justify-between gap-6 lg:gap-8 xl:gap-12">
+      <div className="relative z-10 mx-auto flex w-full max-w-300 items-center justify-between gap-6 lg:gap-8 xl:gap-10">
         <RegisterVisuals />
         <RegisterForm />
       </div>

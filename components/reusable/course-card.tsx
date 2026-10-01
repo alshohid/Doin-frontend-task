@@ -64,9 +64,8 @@ export function CourseCard({
             {badges.map((label) => (
               <span
                 key={label}
-                className={`rounded-full bg-white/75 px-2.5 py-1 backdrop-blur-sm max-sm:px-1.5 ${
-                  hideBadgesOnMobile ? "hidden md:block" : "block"
-                }`}
+                className={`rounded-full bg-white/75 px-2.5 py-1 backdrop-blur-sm max-sm:px-1.5 ${hideBadgesOnMobile ? "hidden md:block" : "block"
+                  }`}
               >
                 {label}
               </span>
@@ -76,11 +75,11 @@ export function CourseCard({
       </div>
       <div className="px-0.75 pt-3.25 pb-1 max-md:px-0 max-md:pt-2.25">
         <div className="flex items-center justify-between gap-2.5">
-          <h3 className="m-0 overflow-hidden text-ellipsis whitespace-nowrap text-base tracking-[-.03em] max-md:text-xs">
+          <h3 className="m-0 overflow-hidden text-ellipsis whitespace-nowrap text-lg font-bold tracking-[-.03em] max-md:text-xs">
             {title}
           </h3>
           <span className="flex shrink-0 items-center gap-1 text-xs text-text-subtle max-md:text-[10px]">
-            {rating} <Star className={`size-3.75 max-md:size-[11px] ${starClassName}`} />
+            {rating} <Star className={`size-3.75 max-md:size-2.75 ${starClassName}`} />
           </span>
         </div>
         <p className="my-1 mb-2.75 text-[11px] text-text-subtle max-md:mb-1.75 max-md:text-[9px]">
@@ -88,7 +87,7 @@ export function CourseCard({
         </p>
         <div className="flex items-center gap-2 text-[10px] text-text-subtle max-md:gap-1 max-md:text-[8px]">
           <span className="flex items-center gap-1.25 whitespace-nowrap rounded-full bg-surface-pill px-2.5 py-1.75 max-md:gap-1 max-md:px-1.25 max-md:py-1">
-            <BarChart3 className="size-[14px] max-md:size-[10px]" /> Beginner
+            <BarChart3 className="size-3.5 max-md:size-2.5" /> Beginner
           </span>
           <div className="ml-auto flex items-center pl-2">
             {studentAvatars.map((avatar) => (
