@@ -29,6 +29,7 @@ export interface CourseCardProps {
   avatarBadgeClass?: string;
   avatarBadgeText?: string;
   className?: string;
+  slug?: string;
 }
 
 export function CourseCard({
@@ -45,12 +46,29 @@ export function CourseCard({
   avatarBadgeClass = "bg-brand-lime text-text-dark",
   avatarBadgeText = "26+",
   className = "",
+  slug,
 }: CourseCardProps) {
+  const targetSlug =
+    slug ??
+    title
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/(^-|-$)+/g, "");
+
   return (
     <article className={`overflow-hidden rounded-[18px] border border-border-card bg-white p-2.5 text-text-primary ${className}`}>
-      <div className={`relative aspect-[1.75] overflow-hidden rounded-xl ${tones[tone] ?? tones.mint}`}>
+      <Link
+        href={`/courses/${targetSlug}`}
+        className={`relative block aspect-[1.75] overflow-hidden rounded-xl group ${tones[tone] ?? tones.mint}`}
+      >
         {image ? (
-          <Image className="object-cover" src={image} alt="" fill sizes="(max-width: 760px) 50vw, 33vw" />
+          <Image
+            className="object-cover transition-transform duration-300 group-hover:scale-105"
+            src={image}
+            alt=""
+            fill
+            sizes="(max-width: 760px) 50vw, 33vw"
+          />
         ) : (
           <>
             <span className="relative z-1 p-5 text-[11px] font-bold tracking-[.13em]">{category}</span>
@@ -72,11 +90,16 @@ export function CourseCard({
             ))}
           </div>
         )}
-      </div>
+      </Link>
       <div className="px-0.75 pt-3.25 pb-1 max-md:px-0 max-md:pt-2.25">
         <div className="flex items-center justify-between gap-2.5">
           <h3 className="m-0 overflow-hidden text-ellipsis whitespace-nowrap text-lg font-bold tracking-[-.03em] max-md:text-xs">
-            {title}
+            <Link
+              href={`/courses/${targetSlug}`}
+              className="hover:text-blue-700 transition-colors"
+            >
+              {title}
+            </Link>
           </h3>
           <span className="flex shrink-0 items-center gap-1 text-xs text-text-subtle max-md:text-[10px]">
             {rating} <Star className={`size-3.75 max-md:size-2.75 ${starClassName}`} />

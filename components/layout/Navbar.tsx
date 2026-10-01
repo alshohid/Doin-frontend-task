@@ -9,7 +9,7 @@ import type { NavbarProps } from "./navbar/types";
 
 export function Navbar({ overlay }: NavbarProps = {}) {
   const { isOpen, isMounted, toggleMenu, closeMenu, pathname } = useMobileMenu();
-  const isOverlay = overlay ?? (pathname === "/");
+  const isOverlay = overlay ?? (pathname === "/" || pathname.startsWith("/courses"));
 
   return (
     <header
