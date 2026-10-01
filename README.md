@@ -218,7 +218,7 @@ Doin-frontend-task/
 
 ## 📄 License
 
-This project is developed as part of a frontend engineering assessment. All rights reserved.
+This project is developed as part of a frontend engineering assessment.  All rights reserved.
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Building for Production
