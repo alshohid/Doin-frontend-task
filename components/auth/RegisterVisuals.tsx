@@ -62,7 +62,7 @@ export function RegisterVisuals() {
         </div>
 
         {/* Front Card: The Power of Big Data */}
-        <div className="absolute top-2 left-24 z-20 w-84 rounded-[18px] lg:left-28 lg:w-88 xl:left-34 xl:w-98">
+        <div className="absolute -top-4 left-24 z-20 w-84 rounded-[18px] lg:left-28 lg:w-88 xl:left-34 xl:w-98">
           <CourseCard
             title="the Power of Big Data"
             creator="purepearl studio"

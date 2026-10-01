@@ -6,7 +6,7 @@ import { Input } from "@/components/reusable/input";
 
 export function RegisterForm() {
   return (
-    <div className="w-full flex-1 max-w-md md:max-w-xl lg:max-w-125 xl:max-w-135">
+    <div className="w-full flex-1 max-w-md mx-auto md:max-w-xl lg:max-w-125 xl:max-w-135">
       {/* Mobile-only Logo */}
       <div className="mb-6 flex justify-center lg:hidden">
         <Link href="/" className="transition-transform hover:scale-105">

@@ -3,7 +3,7 @@ import { RegisterForm } from "@/components/auth/RegisterForm";
 
 export default function RegisterPage() {
   return (
-    <main className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-brand-blue-hero px-4 py-8 sm:px-6 sm:py-12 lg:px-8 xl:px-12">
+    <main className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-brand-blue-hero ">
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 bg-grid-pattern opacity-25"
